@@ -1,0 +1,28 @@
+#tooltip {
+  position: absolute;
+  display: none;
+  flex-direction: row;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+}
+
+#tooltip img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+rect {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+text {
+  font-size: 12px;
+  fill: #000;
+  pointer-events: none;
+}
